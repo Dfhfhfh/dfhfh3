@@ -58,3 +58,11 @@ body {
   margin-left: auto;
   margin: 5px;
 }
+img {max-width: 100%;height: auto;}
+
+@media screen and (max-width: 600px) {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
