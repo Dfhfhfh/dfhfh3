@@ -1,0 +1,60 @@
+h3 {
+  color: rgb(59, 59, 232);
+}
+body {
+  background-color: hwb(296 53% 13%);
+}
+#neirong1 * {
+  margin-top: 11px;
+}
+.dier {
+  border: 3px solid hwb(296 23% 27%);
+  padding: 10px;
+}
+.tupian0 {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 3px;
+  width: 96vw;
+  height: 50vh;
+  border: 3px solid rgb(22, 20, 22);
+  padding: 5px;
+  justify-content: space-between;
+}
+.tupian1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 1px;
+  border: 1px solid #362519;
+}
+.tupian2 {
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.tupian2 img {
+  border-radius: 50%;
+  display: inline-block;
+  animation: rotate 1s infinite linear;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.tupian1 img {
+  margin: 1px;
+}
+.wenzi {
+  border: 3px solid rgb(22, 20, 22);
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin: 5px;
+}
